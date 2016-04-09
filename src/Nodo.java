@@ -1,4 +1,3 @@
-
 public class Nodo {
 	private int numero;
 	private String operador;
@@ -36,6 +35,5 @@ public class Nodo {
 		}
 		System.out.print( actual.get_numero()+" ");
 	}
-	
-
 }
+
