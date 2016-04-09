@@ -3,3 +3,5 @@ Informe  de Mergeo:
 Este mergeo representa el fin de la rama ramaProducto.
 
 09/04/2016 (FranzAlexander) Merge from ramaDiv to master
+
+09/04/2016 (CarolinaGatica) Merge from ramaPorcentaje to master
