@@ -1,9 +1,10 @@
+
 public class Nodo {
-	private int numero;
+	private float numero;
 	private String operador;
 	private Nodo siguiente;
 	
-	public Nodo(int numero, String operador){
+	public Nodo(float numero, String operador){
 		this.numero=numero;
 		this.operador=operador;
 		this.siguiente=null;
@@ -14,7 +15,7 @@ public class Nodo {
 		this.siguiente=siguiente;
 	}
 	
-	public int get_numero(){
+	public float get_numero(){
 		return numero;
 	}
 	
@@ -35,8 +36,6 @@ public class Nodo {
 		}
 		System.out.print( actual.get_numero()+" ");
 	}
-
-}
-
+	
 
 }

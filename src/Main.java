@@ -5,9 +5,9 @@ public class Main {
 	private static Scanner entrada;
 
 	public static void main(String [] args){
-		int primero;
-		int segundo=0;
-		int resultado;
+		float primero;
+		float segundo=0;
+		float resultado;
 		String operador=null;
 		char op;
 		Nodo comienzo=new Nodo(0,null);
@@ -19,7 +19,7 @@ public class Main {
 		
 		String p = token.nextToken();
 		
-		primero=Integer.parseInt(p);
+		primero=Float.valueOf(p);
 		resultado=primero;
 		p=token.nextElement().toString();
 		operador=p;
@@ -42,7 +42,7 @@ public class Main {
 				
 				if(token.hasMoreTokens()){
 					p=token.nextElement().toString();
-					segundo=Integer.parseInt(p);
+					segundo=Float.valueOf(p);
 				}
 				else break;
 				
@@ -67,7 +67,7 @@ public class Main {
 		}
 		else{
 			p=token.nextElement().toString();
-			if(p!=null) segundo=Integer.parseInt(p);
+			if(p!=null) segundo=Float.valueOf(p);
 			op=operador.charAt(0);
 			
 			switch(op){
@@ -75,19 +75,14 @@ public class Main {
 				resultado=primero*segundo;
 				System.out.print(primero+" * "+segundo+" = "+resultado);
 				break;
-
-
 			case'/':
 				resultado=primero/segundo;
 				System.out.print(primero+" / "+segundo+" = "+resultado);
 				break;
-
-
 			case'%':
 				resultado=(primero*segundo)/100;
 				System.out.print(primero+" % "+segundo+" = "+resultado);
 				break;
-
 			default:
 				System.out.print("La operacion ingresada no es valida\n");
 				break;
