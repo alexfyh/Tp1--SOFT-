@@ -75,6 +75,12 @@ public class Main {
 				resultado=primero*segundo;
 				System.out.print(primero+" * "+segundo+" = "+resultado);
 				break;
+
+			case'/':
+				resultado=primero/segundo;
+				System.out.print(primero+" / "+segundo+" = "+resultado);
+				break;
+
 			default:
 				System.out.print("La operacion ingresada no es valida\n");
 				break;
