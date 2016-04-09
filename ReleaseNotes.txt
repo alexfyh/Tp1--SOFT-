@@ -1,0 +1,4 @@
+Fecha: 09/04/2016
+Autor: Carolina Gatica
+Titulo: version 1.0.0
+Comentarios: Calculadora que suma y resta enteros.
