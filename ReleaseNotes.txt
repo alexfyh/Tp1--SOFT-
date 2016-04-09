@@ -2,3 +2,13 @@ Fecha: 09/04/2016
 Autor: Carolina Gatica
 Titulo: version 1.0.0
 Comentarios: Calculadora que suma y resta enteros.
+
+Fecha: 09/04/2016
+Autor: Carolina Gatica
+Titulo: version 1.1.0
+Comentarios: Calculadora que suma, resta y multiplicacion.
+
+Fecha: 09/04/2016
+Autor: Carolina Gatica
+Titulo: version 1.1.0
+Comentarios: Calculadora que suma, resta, multiplicacion y porcentaje.
