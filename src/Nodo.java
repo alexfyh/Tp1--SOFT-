@@ -36,4 +36,3 @@ public class Nodo {
 		System.out.print( actual.get_numero()+" ");
 	}
 }
-
