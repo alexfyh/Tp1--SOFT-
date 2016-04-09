@@ -75,19 +75,19 @@ public class Main {
 				resultado=primero*segundo;
 				System.out.print(primero+" * "+segundo+" = "+resultado);
 				break;
-<<<<<<< HEAD
+
 
 			case'/':
 				resultado=primero/segundo;
 				System.out.print(primero+" / "+segundo+" = "+resultado);
 				break;
 
-=======
+
 			case'%':
 				resultado=(primero*segundo)/100;
 				System.out.print(primero+" % "+segundo+" = "+resultado);
 				break;
->>>>>>> ramaPorcentaje
+
 			default:
 				System.out.print("La operacion ingresada no es valida\n");
 				break;
